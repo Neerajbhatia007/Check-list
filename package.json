@@ -1,5 +1,5 @@
 {
-  "homepage": "http://neerajbhatia007.github.io/CheckList.github.io",
+  "homepage": "http://Neerajbhatia007.github.io/Check-list",
   "name": "todo",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
